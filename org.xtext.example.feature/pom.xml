@@ -1,0 +1,15 @@
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>org.xtext.example.feature</artifactId>
+	<packaging>eclipse-feature</packaging>
+
+	<parent>
+		<groupId>org.xtext.example.xcore</groupId>
+		<artifactId>org.xtext.example.xcore.parent</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+		<relativePath>../org.xtext.example.xcore.parent</relativePath>
+	</parent>
+</project>

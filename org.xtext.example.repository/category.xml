@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.xtext.example.feature_1.0.0.qualifier.jar" id="org.xtext.example.feature" version="1.0.0.qualifier">
+      <category name="Example"/>
+   </feature>
+   <category-def name="Example" label="Example"/>
+</site>

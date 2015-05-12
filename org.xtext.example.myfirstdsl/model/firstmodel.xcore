@@ -1,0 +1,8 @@
+@GenModel(modelDirectory="./src-gen")
+package org.xtext.example.myfirstdsl
+import common.NamedElement
+import common.Referenceable
+
+class FirstElement extends NamedElement, Referenceable {
+	refers Referenceable ref  
+}
