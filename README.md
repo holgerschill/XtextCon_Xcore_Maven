@@ -1,2 +1,2 @@
-# XtextCon_Xcore_Maven
-Maven example
+# Example for using Xcore together with Xtext in a Maven build
+
