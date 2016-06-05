@@ -3,7 +3,6 @@
  */
 package org.xtext.example.seconddsl.ui.contentassist
 
-import org.xtext.example.seconddsl.ui.contentassist.AbstractLangProposalProvider
 
 /**
  * See https://www.eclipse.org/Xtext/documentation/304_ide_concepts.html#content-assist

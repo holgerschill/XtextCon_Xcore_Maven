@@ -25,6 +25,7 @@ Workflow {
 		language = StandardLanguage {
 			name = "org.xtext.example.firstdsl.Lang"
 			fileExtensions = "first"
+
 			referencedResource = "platform:/resource/org.xtext.example.myfirstdsl/model/firstmodel.xcore"
 			referencedResource = "platform:/resource/org.xtext.example.myseconddsl/model/secondmodel.xcore"
 			referencedResource = "platform:/resource/org.xtext.example.common.model/model/Common.genmodel"

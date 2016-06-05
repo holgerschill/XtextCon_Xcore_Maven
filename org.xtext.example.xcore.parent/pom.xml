@@ -22,6 +22,7 @@
 		<module>../org.xtext.example.seconddsl.lang</module>
 		<module>../org.xtext.example.firstdsl.lang.ide</module>
 		<module>../org.xtext.example.firstdsl.lang.ui</module>
+		<module>../org.xtext.example.seconddsl.lang.ide</module>
 		<module>../org.xtext.example.seconddsl.lang.ui</module>
 		<module>../org.xtext.example.repository</module>
 		<module>../org.xtext.example.feature</module>
