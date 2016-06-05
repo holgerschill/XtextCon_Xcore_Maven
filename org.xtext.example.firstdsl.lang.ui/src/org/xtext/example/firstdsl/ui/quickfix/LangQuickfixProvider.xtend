@@ -3,18 +3,16 @@
  */
 package org.xtext.example.firstdsl.ui.quickfix
 
-//import org.eclipse.xtext.ui.editor.quickfix.Fix
-//import org.eclipse.xtext.ui.editor.quickfix.IssueResolutionAcceptor
-//import org.eclipse.xtext.validation.Issue
+import org.eclipse.xtext.ui.editor.quickfix.DefaultQuickfixProvider
 
 /**
  * Custom quickfixes.
  *
- * See https://www.eclipse.org/Xtext/documentation/304_ide_concepts.html#quick-fixes
+ * See https://www.eclipse.org/Xtext/documentation/310_eclipse_support.html#quick-fixes
  */
-class LangQuickfixProvider extends org.eclipse.xtext.ui.editor.quickfix.DefaultQuickfixProvider {
+class LangQuickfixProvider extends DefaultQuickfixProvider {
 
-//	@Fix(MyDslValidator::INVALID_NAME)
+//	@Fix(LangValidator.INVALID_NAME)
 //	def capitalizeName(Issue issue, IssueResolutionAcceptor acceptor) {
 //		acceptor.accept(issue, 'Capitalize name', 'Capitalize the name.', 'upcase.png') [
 //			context |

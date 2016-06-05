@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>org.xtext.example.firstdsl.lang.ui</name>
+	<name>org.xtext.example.firstdsl.lang.ide</name>
 	<comment></comment>
 	<projects>
 	</projects>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
-    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/org.xtext.example.seconddsl.lang/src-gen" editDirectory="//Users/schill/Documents/Conferences/XTEXTCON2015/Xcore/ws/org.xtext.example.seconddsl.lang.edit/src"
-    editorDirectory="//Users/schill/Documents/Conferences/XTEXTCON2015/Xcore/ws/org.xtext.example.seconddsl.lang.editor/src"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/org.xtext.example.seconddsl.lang/src-gen" editDirectory="//Users/thoms/git/XtextCon_Xcore_Maven/org.xtext.example.seconddsl.lang.edit/src"
+    editorDirectory="//Users/thoms/git/XtextCon_Xcore_Maven/org.xtext.example.seconddsl.lang.editor/src"
     modelPluginID="org.xtext.example.seconddsl.lang" forceOverwrite="true" modelName="Lang"
     updateClasspath="false" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
     complianceLevel="6.0" copyrightFields="false" editPluginID="org.xtext.example.seconddsl.lang.edit"
-    editorPluginID="org.xtext.example.seconddsl.lang.edit" runtimeVersion="2.10" usedGenPackages="platform:/resource/org.xtext.example.common.model/model/Common.genmodel#//common platform:/resource/org.xtext.example.myfirstdsl/model/firstmodel.xcore#/1/myfirstdsl platform:/resource/org.xtext.example.myseconddsl/model/secondmodel.xcore#/1/myseconddsl">
+    editorPluginID="org.xtext.example.seconddsl.lang.edit" runtimeVersion="2.11" usedGenPackages="platform:/resource/org.xtext.example.common.model/model/Common.genmodel#//common platform:/resource/org.xtext.example.myfirstdsl/model/firstmodel.xcore#/1/myfirstdsl platform:/resource/org.xtext.example.myseconddsl/model/secondmodel.xcore#/1/myseconddsl">
   <genPackages prefix="GeneratedSecondModel" basePackage="org.xtext.example.seconddsl"
       disposableProviderFactory="true" fileExtensions="second" ecorePackage="Lang.ecore#/">
     <genClasses ecoreClass="Lang.ecore#//CustomSecondElement">
