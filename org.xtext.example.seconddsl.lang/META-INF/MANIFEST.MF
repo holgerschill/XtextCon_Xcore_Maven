@@ -21,15 +21,14 @@ Require-Bundle: org.eclipse.xtext;visibility:=reexport,
 Import-Package: org.apache.log4j
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Export-Package: org.xtext.example.seconddsl,
- org.xtext.example.seconddsl.services,
- org.xtext.example.seconddsl.serializer,
- org.xtext.example.seconddsl.parser.antlr,
- org.xtext.example.seconddsl.parser.antlr.internal,
- org.xtext.example.seconddsl.validation,
- org.xtext.example.seconddsl.scoping,
- org.xtext.example.seconddsl.generator,
- org.xtext.example.seconddsl.formatting,
  org.xtext.example.seconddsl.generatedSecondModel,
  org.xtext.example.seconddsl.generatedSecondModel.impl,
- org.xtext.example.seconddsl.generatedSecondModel.util
+ org.xtext.example.seconddsl.generatedSecondModel.util,
+ org.xtext.example.seconddsl.generator,
+ org.xtext.example.seconddsl.parser.antlr,
+ org.xtext.example.seconddsl.parser.antlr.internal,
+ org.xtext.example.seconddsl.scoping,
+ org.xtext.example.seconddsl.serializer,
+ org.xtext.example.seconddsl.services,
+ org.xtext.example.seconddsl.validation
 
