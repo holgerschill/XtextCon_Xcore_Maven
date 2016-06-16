@@ -3,14 +3,14 @@
  */
 package org.xtext.example.firstdsl.ui.labeling
 
-//import org.eclipse.xtext.resource.IEObjectDescription
+import org.eclipse.xtext.ui.label.DefaultDescriptionLabelProvider
 
 /**
  * Provides labels for IEObjectDescriptions and IResourceDescriptions.
  * 
  * See https://www.eclipse.org/Xtext/documentation/304_ide_concepts.html#label-provider
  */
-class LangDescriptionLabelProvider extends org.eclipse.xtext.ui.label.DefaultDescriptionLabelProvider {
+class LangDescriptionLabelProvider extends DefaultDescriptionLabelProvider {
 
 	// Labels and icons can be computed like this:
 	
@@ -20,5 +20,5 @@ class LangDescriptionLabelProvider extends org.eclipse.xtext.ui.label.DefaultDes
 //	 
 //	override image(IEObjectDescription ele) {
 //		ele.EClass.name + '.gif'
-//	}	 
+//	}
 }
